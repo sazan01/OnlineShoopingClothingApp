@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Items"
+    android:background="@drawable/back2"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name"
+        android:textStyle="bold"
+        android:id="@+id/etitemname"
+        android:layout_margin="25dp"
+        android:textSize="30sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="Item Price"
+        android:id="@+id/etitemprice"
+        android:layout_margin="25dp"
+        android:textSize="30sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="Image Name"
+        android:id="@+id/etitemimgname"
+        android:layout_margin="25dp"
+        android:textSize="30sp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:hint="Item Description"
+        android:id="@+id/etitemdescription"
+        android:layout_margin="25dp"
+        android:textSize="30sp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:id="@+id/btnadd"
+        android:layout_gravity="center"
+        android:text="Add item"
+        android:textSize="30sp"
+        android:layout_margin="25dp"
+        />
+</LinearLayout>
